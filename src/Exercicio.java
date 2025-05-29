@@ -1,3 +1,4 @@
+
 public class Exercicio {
 
    private int id;
@@ -10,6 +11,10 @@ public class Exercicio {
    private String descricaoDoRelaxamento;
    private String somDoRelaxamento;
    private int tempoMinDoRelaxamento;
+
+  
+
+    
     
     // Ctrl+Shift+l
     public Exercicio(){

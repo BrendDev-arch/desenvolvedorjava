@@ -1,6 +1,11 @@
+
+
+
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, Fono!");
+
+
 
         Exercicio ex = new Exercicio("Soprar o canudo dentro de um copo com água", "Aquecimento da voz", "som.mp3", 3); // CTRL+SPACE
 
@@ -30,6 +35,14 @@ public class App {
 
         System.out.println("Nome da Clínica: " + cl.getNomeDaClínica());
         System.out.println("Cnpj da Clínica: " + cl.getCnpj() );
+
+        Profissional pr = new Profissional("Marcos", 457856546);
+
+        System.out.println("O nome do profissional: " + pr.getNomeDoProfissional());
+        System.out.println("O telefone do Profissional: " + pr.getTelefone());
+
+
+
 
     
         
