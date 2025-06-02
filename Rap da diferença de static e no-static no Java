@@ -1,0 +1,94 @@
+(Batida de rap começa, grave e constante)
+
+Yo, check the mic, um flow que te instiga,
+Na arquitetura Java, a mente se abriga.
+Hoje a rima é didática, não tem caô,
+Pra entender o objeto, o que é static, qual é o pó?
+
+O Objeto e a Instância
+Na cena do código, classes são blueprint,
+Onde cada ideia, cada dado, cê print.
+Mas pra usar a classe, pra ela ter valor,
+Você instancia um objeto, é o criador!
+new MinhaClasse(); é a mágica, é a chave,
+Cada objeto é único, na memória ele nave.
+Tem seus próprios dados, seu próprio lugar,
+Um rolê non-static, pra se conectar.
+
+Non-Static: O Individual
+Então, métodos non-static, atributos também,
+Pertencem ao objeto, cada um com seu bem.
+Se você muda um valor num objeto A,
+No objeto B, pode crer, não vai mudar.
+É como um carro, sabe, cada um tem sua cor,
+Se pintar o meu de azul, não afeta o do senhor.
+Precisa da instância, pra chamar, pra mexer,
+Senão dá erro, parceiro, cê vai entender.
+
+public class Carro {
+    String cor; // Atributo non-static
+
+    public void pintar(String novaCor) { // Método non-static
+        this.cor = novaCor;
+    }
+}
+
+// No main:
+Carro meuCarro = new Carro();
+meuCarro.pintar("Vermelho");
+
+Carro seuCarro = new Carro();
+seuCarro.pintar("Azul");
+// meuCarro.cor continua Vermelho, seuCarro.cor é Azul
+
+Static: O Compartilhado
+Mas aí que entra o static, a visão geral,
+Pertence à classe, um valor global.
+Não precisa de objeto, não precisa instanciar,
+Direto na classe, você pode chamar.
+É como um atributo que é pra todos, sacou?
+Se um muda o valor, pra geral ele voou.
+Pensa no contador, sabe, pra saber quantos já vêm?
+É static na cabeça, meu bom, ele te convém!
+
+public class ContaBancaria {
+    static int totalContas = 0; // Atributo static
+
+    public ContaBancaria() {
+        totalContas++; // Incrementa para todos os objetos
+    }
+
+    public static void exibirTotal() { // Método static
+        System.out.println("Total de contas: " + totalContas);
+    }
+}
+
+// No main:
+new ContaBancaria();
+new ContaBancaria();
+ContaBancaria.exibirTotal(); // Saída: Total de contas: 2
+
+A Diferença na Moral
+Non-static é instância, individual,
+Cada objeto carrega um peso real.
+Static é da classe, compartilhado de vez,
+Único na memória, sem criar três ou dez.
+Método static só chama static, é a lei,
+Não pode acessar o que no objeto eu criei.
+Porque ele existe antes, antes do new surgir,
+Não tem referência pra onde vai ir.
+
+A Conclusão, Mané
+Então, quando ter que usar, pense bem qual é o fim:
+Se é pra um objeto, segue o fluxo, sem mimimi.
+Se é pra classe inteira, um geral, uma visão,
+Mete um static na frente, e sem confusão.
+Essa é a diferença, moleque, pra entender,
+Static e non-static no Java, pra você!
+
+(Batida termina com um scratch e um fade out)
+
+
+
+
+
