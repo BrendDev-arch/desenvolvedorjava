@@ -1,0 +1,64 @@
+O Segredo da Vida: Get e Set em Java
+Na vida que flui, um livro a desvendar,
+Cada página esconde o que queremos guardar.
+Nossos dados, segredos, que não é pra qualquer um,
+Assim como em Java, o objeto é mais que comum.
+
+Ele tem suas propriedades, seus atributos,
+Um nome, uma idade, sem grandes lutos.
+Mas como acessar, ou como mudar,
+Sem bagunçar a ordem, sem nada estragar?
+
+O Guardião do Valor: O Método Set
+Aí que surge o Set, qual guardião da porta,
+Com a chave na mão, a entrada ele suporta.
+"Qual valor você traz?", ele pergunta, com calma,
+"Se for o que eu aceito, eu guardo na minha alma."
+
+Ele recebe um parâmetro, um dado a conferir,
+Antes de atribuir, ele pode até corrigir.
+Pra não deixar erro, pra manter a integridade,
+É o Set que trabalha, com pura lealdade.
+
+public class Pessoa {
+    private String nome; // Atributo privado
+
+    // Método Set para o nome
+    public void setNome(String novoNome) {
+        if (novoNome != null && !novoNome.trim().isEmpty()) {
+            this.nome = novoNome;
+        } else {
+            System.out.println("Nome inválido!");
+        }
+    }
+}
+O Revelador Gentil: O Método Get
+E quando a gente quer saber, o que lá dentro mora?
+Não invadimos direto, a ética implora.
+Chamamos o Get, com respeito e com calma,
+"Me revela o que tens, o que tens na sua alma!"
+
+Ele devolve o valor, sem alteração,
+Apenas pra leitura, sem complicação.
+É a forma segura de buscar a informação,
+Sem tocar no original, sem nenhuma invasão.
+
+
+public class Pessoa {
+    private String nome; // Atributo privado
+
+    // Método Get para o nome
+    public String getNome() {
+        return this.nome;
+    }
+}
+O Equilíbrio da Existência
+Então, a vida e o Java, se unem num compasso,
+Set pra modificar, no seu devido espaço.
+Get pra consultar, pra saber o que existe,
+Sem quebrar a regra, que o bom código insiste.
+
+Encapsulamento é o nome desse jogo, meu irmão,
+Proteger os dados, com sabedoria e razão.
+Use o get e o set, sem medo de errar,
+É o caminho dos fortes, pra programar!
