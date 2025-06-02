@@ -1,0 +1,68 @@
+1. Tipos Primitivos em Java
+  Os tipos primitivos são os tipos de dados básicos da linguagem Java. Eles armazenam valores simples e são eficientes em uso de memória e processamento.
+        | Tipo      | Tamanho            | Valor padrão | Exemplo de uso         |
+        | --------- | ------------------ | ------------ | ---------------------- |
+        | `byte`    | 8 bits             | 0            | `byte b = 100;`        |
+        | `short`   | 16 bits            | 0            | `short s = 30000;`     |
+        | `int`     | 32 bits            | 0            | `int i = 100000;`      |
+        | `long`    | 64 bits            | 0L           | `long l = 100000L;`    |
+        | `float`   | 32 bits (decimal)  | 0.0f         | `float f = 3.14f;`     |
+        | `double`  | 64 bits (decimal)  | 0.0d         | `double d = 3.1415;`   |
+        | `char`    | 16 bits (Unicode)  | '\u0000'     | `char c = 'A';`        |
+        | `boolean` | 1 bit (true/false) | false        | `boolean flag = true;` |
+
+  Uso
+  Os tipos primitivos são usados para representar dados simples e são mais rápidos e consomem menos memória.
+
+2. Wrappers em Java
+Cada tipo primitivo possui uma classe wrapper correspondente que encapsula o valor primitivo dentro de um objeto. Isso é útil porque permite usar primitivos em coleções e aproveitar métodos utilitários.
+
+      | Tipo Primitivo | Classe Wrapper |
+      | -------------- | -------------- |
+      | `byte`         | `Byte`         |
+      | `short`        | `Short`        |
+      | `int`          | `Integer`      |
+      | `long`         | `Long`         |
+      | `float`        | `Float`        |
+      | `double`       | `Double`       |
+      | `char`         | `Character`    |
+      | `boolean`      | `Boolean`      |
+
+    Exemplo
+
+    int num = 10;
+    Integer objNum = Integer.valueOf(num);  // Autoboxing: converte int para Integer
+    int num2 = objNum.intValue();           // Unboxing: converte Integer para int
+
+Autoboxing e Unboxing
+Java facilita a conversão automática entre primitivos e wrappers:
+
+  java
+  Copiar
+  Editar
+
+Integer obj = 5;      // autoboxing
+int prim = obj;       // unboxing
+
+3. Classe String
+A classe String representa uma sequência de caracteres. Em Java, Strings são objetos imutáveis — ou seja, depois de criadas, seu conteúdo não pode ser alterado.
+
+String texto = "Olá, Mundo!";
+
+
+Características principais
+
+Imutabilidade: qualquer operação que modifica uma String na verdade cria uma nova String. Pode ser concatenada usando + ou método concat(). Possui diversos métodos úteis: .length(), .substring(), .toUpperCase(), .equals(), entre outros.
+
+Exemplo
+
+String s1 = "Java";
+String s2 = s1 + " é legal";  // Cria uma nova String "Java é legal"
+
+System.out.println(s2.length());        // Saída: 11
+System.out.println(s2.toUpperCase());   // Saída: JAVA É LEGAL
+
+
+
+
+
