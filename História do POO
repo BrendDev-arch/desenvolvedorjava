@@ -1,0 +1,34 @@
+**Construtores Galácticos: A Ascensão dos Guerreiros de Objetos**  
+**Uma Série de Ficção em Três Episódios no Estilo Netflix**
+
+---
+
+**Episódio 1: O Esquema da Criação**
+
+Na galáxia brilhante de Codevia, onde a Programação Orientada a Objetos (POO) governa a existência, a Forja de Construtores orbita a estrela Polimorfis, criando objetos guerreiros para combater a entidade caótica NullPointer. Aria, uma jovem coder novata na Academia POO de Sintaxia, sonha em dominar construtores — métodos especiais que inicializam objetos com atributos e métodos. Zombada por seus colegas por focar nos "básicos" construtores em vez de herança ou polimorfismo, Aria descobre um pergaminho holográfico antigo que detalha o ProtoConstrutor, um esquema lendário capaz de forjar objetos guerreiros invencíveis com cadeias de construtores e métodos autoadaptáveis.
+
+Determinada a se provar, Aria cria secretamente Valion, um cavaleiro galáctico, usando uma cadeia de construtores para inicializar sua força (85), agilidade (70) e proficiência com espada de plasma. Quando Valion ganha vida, minions de NullPointer — objetos corrompidos com atributos nulos — atacam Sintaxia. Aria se une a Kael, especialista em construtores privados; Lyra, mestre em construtores padrão; e Zorak, entusiasta de interfaces. Eles devem proteger a Forja de Construtores e desvendar os segredos do ProtoConstrutor. Mas a inexperiência de Aria pode desencadear erros de execução, e NullPointer está à espreita.
+
+**Cliffhanger**: Enquanto o time repele a primeira onda de minions, o pergaminho revela um aviso: o poder do ProtoConstrutor pode causar um estouro de pilha, colapsando Codevia.
+
+---
+
+**Episódio 2: A Batalha Sobrecarregada**
+
+O grupo parte para o cinturão de asteroides de Encapsulon para proteger o núcleo da Forja, um repositório de modelos de construtores. Aria luta para equilibrar a lógica do construtor de Valion, descobrindo que sobrecarregar construtores com muitos parâmetros atrasa sua instanciação, deixando-o vulnerável. Kael a ensina a usar construtores privados para proteger os atributos de Valion, enquanto os objetos batedores leves de Lyra, gerados por construtores padrão, mapeiam as posições inimigas. Zorak impõe interfaces rígidas, garantindo que os métodos dos guerreiros estejam alinhados.
+
+Em meio à batalha, NullPointer corrompe os modelos da Forja, forçando Aria a depurar o construtor de Valion em tempo real. Ela implementa um construtor de cópia para duplicar objetos guerreiros estáveis, criando um pequeno exército. Mas NullPointer revela seu plano: sequestrar o ProtoConstrutor e sobrecarregá-lo com chamadas recursivas infinitas, ameaçando um colapso galáctico. A confiança de Aria cresce, mas um bug oculto em sua cadeia de construtores faz Valion travar no meio da luta, expondo uma fraqueza crítica.
+
+**Cliffhanger**: Enquanto Valion reinicia, a verdadeira forma de NullPointer — um vazio massivo e glitchado — emerge, absorvendo a energia da Forja. Aria deve decidir se arrisca ativar o ProtoConstrutor.
+
+---
+
+**Episódio 3: A Instanciação Final**
+
+Com a Forja sob cerco, Aria e seu time invadem o núcleo para ativar o ProtoConstrutor. Aria percebe que os avisos do pergaminho apontam para o equilíbrio: construtores devem ser precisos, nem subcarregados nem sobrecarregados, para evitar instabilidade. Ela refatora o construtor de Valion, usando inicialização parametrizada para flexibilidade e um método de fábrica estático para simplificar a criação. Kael fortifica a Forja com acessadores encapsulados, Lyra gera objetos isca para distrair NullPointer, e Zorak implementa uma interface universal para unificar os ataques dos guerreiros.
+
+No confronto final, Aria ativa o ProtoConstrutor, forjando Aetherion, um novo guerreiro com atributos adaptáveis e métodos de autocura. Mas o ataque recursivo de NullPointer começa, ameaçando um estouro de pilha. Aria sacrifica seu código original de construtor, injetando uma condição de terminação no ProtoConstrutor para interromper a recursão. Aetherion e Valion unem forças, seus atributos perfeitamente inicializados derrotando NullPointer, banindo-o para o vazio.
+
+Codevia está salva, mas o poder do ProtoConstrutor é selado, considerado perigoso demais. Aria, agora uma Arquiteta respeitada, promete ensinar às futuras gerações a arte da construção equilibrada. A galáxia se reconstrói, mas um leve glitch nas estrelas sugere que NullPointer pode voltar.
+
+**Créditos Finais**: Aria contempla as estrelas, seu próximo construtor já tomando forma em sua mente.
